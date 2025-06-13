@@ -12,8 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Hangman game
-
-        String filePath = "C:\\Users\\Basel\\Projects\\Hangman\\demo\\src\\words.txt";
+        String filePath = "demo\\src\\words.txt";
         ArrayList<String> words = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
